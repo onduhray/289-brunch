@@ -8,18 +8,19 @@
     "url": "onduhray/289-brunch"
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --development"
+    "start": "brunch watch --env testing --server",
+    "build": "brunch build  --env testing"
   },
   "dependencies": {},
   "devDependencies": {
-    "auto-reload-brunch": "^2.0.0",
     "brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
+    "coffee-script-brunch": "^2.1.0",
     "css-brunch": "^2.0.0",
     "imageoptmizer-brunch": "0.0.6",
     "javascript-brunch": "^2.0.0",
     "jpegtran": "^1.0.4",
+    "node-smushit": "^0.5.1",
     "optipng": "^1.0.0",
     "stylus-brunch": "^2.8.0",
     "uglify-js-brunch": "^2.0.0"
