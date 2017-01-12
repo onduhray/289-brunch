@@ -17,7 +17,14 @@ exports.config = {
       imageoptimizer: {
           smushit: true, // if false it use jpegtran and optipng, if set to true it will use smushit
          imagePath: 'images' // your image path within your public folder
-      }
+     },
+     autoReload: {
+         enabled: {
+             css: true,
+             js: true,
+             assets: true
+         }
+     }
   },
 
     npm: {
