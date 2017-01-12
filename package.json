@@ -1,23 +1,27 @@
 {
-  "name": "brunch-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "289-brunch",
+  "description": "A Brunch skeleton created specifically for use in my ART289 Web Production class. Based on brunch/dead-simple.",
+  "author": "André Casey",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "onduhray/289-brunch"
   },
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --development"
   },
   "dependencies": {},
   "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
     "brunch": "^2.0.0",
-    "javascript-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
-    "uglify-js-brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
-    "auto-reload-brunch": "^2.0.0"
+    "css-brunch": "^2.0.0",
+    "imageoptmizer-brunch": "0.0.6",
+    "javascript-brunch": "^2.0.0",
+    "jpegtran": "^1.0.4",
+    "optipng": "^1.0.0",
+    "stylus-brunch": "^2.8.0",
+    "uglify-js-brunch": "^2.0.0"
   }
 }
